@@ -1,36 +1,59 @@
-# Netflix data analyst
- Netflix data analyst 
-This project aims to analyze data received from the Netflix platform. Python programming language was used for data analysis and the libraries used are listed below.
+# Netflix Data Analysis using Python
 
-Libraries Used
-Pandas: Used for data manipulation and analysis.
-Matplotlib: Used for visualizing data.
-Seaborn: A higher level visualization library built on top of Matplotlib, it helped make visualizations more aesthetic.
-WordCloud: Used to create word clouds.
-Data Source
-The data source used for the project is real-world data collected from the Netflix platform. Data taken from netflix_titles.csv.
+## Overview
 
-Key Analyzes
-The following key analyzes were carried out in this project:
+This project focuses on analyzing Netflix movies and TV shows dataset using Python.  
+The goal of this project is to perform data cleaning, exploratory data analysis (EDA), and data visualization to extract meaningful insights from the dataset.
 
-Data Discovery: First, basic information was obtained about the structure of the data, missing data, and columns.
+This project is beginner-friendly and helps in understanding real-world data analysis workflows.
 
-Data Cleaning: Missing or unnecessary data has been cleaned and the data has been prepared properly.
+---
 
-Data Visualization: Data was visualized using Matplotlib and Seaborn. Graphs were used to provide a better understanding of the data.
+# Objectives
 
-Analyzes: Various analyzes were made on the data, such as the most watched genres, the distribution of broadcast dates, the most watched productions.
+- Analyze Netflix Movies and TV Shows
+- Perform data cleaning and preprocessing
+- Find trends in content release years
+- Analyze top countries producing content
+- Explore ratings and genres
+- Create visualizations for better understanding
+- Extract useful business insights from the dataset
 
-WordCloud Creation: Word clouds of the most popular words were created using the WordCloud library.
+---
 
-Project Results
-As a result of the project, the following main findings were reached:
+# Dataset Information
 
-Most watched genres: Movie, TV Show
-The most frequently occurring words in WordCloud: United States, United Kingdom
-Setup
-To run project codes in a local Python environment, follow these steps:
+The dataset contains information about Netflix content such as:
 
-Download the project files from this repository.
+- Title
+- Type (Movie / TV Show)
+- Director
+- Cast
+- Country
+- Release Year
+- Rating
+- Duration
+- Genre
+- Date Added
 
-Use the following command to:  install the required Python libraries:pip install pandas matplotlib seaborn wordcloud
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+# Project Structure
+
+```bash
+Netflix-Data-Analysis/
+│
+├── netflix_titles.csv
+├── analysis.ipynb
+├── README.md
+├── Netflix_Data_Analysis_Beginner_Guide.pdf
